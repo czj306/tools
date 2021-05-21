@@ -11,15 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JakHuang/form-generator.git"
+    "url": "git+https://github.com/czj306/tools.git"
   },
   "dependencies": {
     "form-gen-render": "^1.0.0"
   },
-  "author": "jakHuang",
+  "author": "czj",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JakHuang/form-generator/issues"
-  },
-  "homepage": "https://github.com/JakHuang/form-generator/blob/dev/src/components/parser"
+    "url": "https://github.com/czj306/tools/issues"
+  }
 }

@@ -1,3 +1,10 @@
+/*
+ * @Author: czj
+ * @Date: 2021-05-19 14:40:49
+ * @LastEditors: czj
+ * @LastEditTime: 2021-05-21 09:40:09
+ * @Description:
+ */
 const path = require('path')
 
 const minify = process.env.NODE_ENV === 'development' ? false : {
@@ -17,7 +24,7 @@ function resolve(dir) {
 
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/form-generator/'
+    ? '/tools/'
     : '/',
   pages: {
     index: {
